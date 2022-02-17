@@ -1,6 +1,7 @@
 package com.withreactnative;
 
 import com.facebook.react.ReactActivity;
+import android.os.Bundle; // import for react navigation
 
 public class MainActivity extends ReactActivity {
 
@@ -11,5 +12,15 @@ public class MainActivity extends ReactActivity {
   @Override
   protected String getMainComponentName() {
     return "withReactNative";
+  }
+
+  /**
+   * Following React Navigation documentation steps in "Installing dependencies into a bare React Native Project"
+   * Click on the link below to access the documentation:
+   *    https://reactnavigation.org/docs/getting-started/#installing-dependencies-into-a-bare-react-native-project
+   */
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(null);
   }
 }
