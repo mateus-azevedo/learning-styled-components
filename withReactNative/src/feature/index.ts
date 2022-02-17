@@ -1,3 +1,5 @@
+import DetailProduct from './DetailProduct';
 import Home from './Home';
+import Products from './Products';
 
-export {Home};
+export {DetailProduct, Home, Products};

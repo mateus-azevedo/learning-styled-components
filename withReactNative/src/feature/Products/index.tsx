@@ -1,12 +1,12 @@
 import React from 'react';
 import {Container, Title} from './styles';
 
-const Header = () => {
+const Products = () => {
   return (
     <Container>
-      <Title>Home</Title>
+      <Title>Products Screen</Title>
     </Container>
   );
 };
 
-export default Header;
+export default Products;
