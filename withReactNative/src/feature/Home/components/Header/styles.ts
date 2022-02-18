@@ -14,14 +14,14 @@ export const WrapperTexts = styled.View`
 `;
 
 export const TitleText = styled.Text`
+  font-family: 'Lora-Bold';
   font-size: 32px;
-  font-weight: bold;
   color: #3c444c;
 `;
 
 export const SubTitleText = styled.Text`
+  font-family: 'Inter-Regular';
   font-size: 14px;
-  font-weight: 500;
   color: #747d88;
 `;
 
@@ -36,6 +36,9 @@ export const SearchContent = styled.View`
 `;
 
 export const SearchTextHover = styled.Text`
+  font-family: 'Inter-Regular';
+  font-size: 12px;
+  color: #cbcfd4;
   align-self: center;
   margin-right: 12px;
 `;
