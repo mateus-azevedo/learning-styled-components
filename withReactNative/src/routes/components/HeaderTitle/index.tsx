@@ -1,7 +1,7 @@
 import React from 'react';
 import {HeaderContainer, Title} from './styles';
 
-const RouterHeader = (props: any) => {
+const HeaderTitle = (props: any) => {
   console.log(props);
 
   return (
@@ -11,4 +11,4 @@ const RouterHeader = (props: any) => {
   );
 };
 
-export default RouterHeader;
+export default HeaderTitle;
