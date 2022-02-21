@@ -1,5 +1,3 @@
-import HeaderTitle from './HeaderTitle';
-import HeaderRight from './HeaderRight';
-import HeaderLeft from './HeaderLeft';
+import HeaderTest from './HeaderTest';
 
-export {HeaderTitle, HeaderRight, HeaderLeft};
+export {HeaderTest};
