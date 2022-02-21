@@ -1,4 +1,5 @@
 import styled from 'styled-components/native';
+import IconHeart from 'react-native-vector-icons/AntDesign';
 
 export const Container = styled.View.attrs({
   shadowColor: '#000',
@@ -22,13 +23,13 @@ export const Content = styled.View`
 
 export const ProductImage = styled.View`
   background-color: #c9bae5;
-  width: 112px;
-  height: 131px;
+  width: 32.5%;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
 `;
 
 export const DescriptionContent = styled.View`
+  flex: 1;
   padding: 18px;
 `;
 
@@ -42,4 +43,13 @@ export const ProductName = styled.Text`
 export const ProductPrice = styled.Text`
   font-family: 'Lora-Bold';
   font-size: 18px;
+`;
+
+export const IconHeartEmpty = styled(IconHeart)`
+  align-self: flex-end;
+  font-size: 18px;
+`;
+
+export const IconHeartFull = styled(IconHeartEmpty)`
+  color: #e7736f;
 `;
