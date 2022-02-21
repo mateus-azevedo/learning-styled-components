@@ -4,13 +4,15 @@ export const Container = styled.View.attrs({
   shadowColor: '#000',
   shadowOffset: {
     width: 0,
-    height: 5,
+    height: 2,
   },
-  shadowOpacity: 0.34,
-  shadowRadius: 6.27,
+  shadowOpacity: 0.25,
+  shadowRadius: 3.84,
 
-  elevation: 10,
-})``;
+  elevation: 5,
+})`
+  border-radius: 8px;
+`;
 
 export const Content = styled.View`
   flex-direction: row;
