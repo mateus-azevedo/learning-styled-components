@@ -7,6 +7,7 @@ export const HearderContent = styled.View`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 24px;
 `;
 
 export const WrapperTexts = styled.View`
