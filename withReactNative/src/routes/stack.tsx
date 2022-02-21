@@ -1,6 +1,6 @@
 import React from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import {HeaderTitle, HeaderRight, HeaderLeft} from './components';
+import {HeaderTest} from './components';
 
 import {DetailProduct, Home, Products} from '../feature';
 
@@ -13,9 +13,7 @@ const routes = () => {
         name="Home"
         component={Home}
         options={({navigation}) => ({
-          headerTitle: (props: any) => <HeaderTitle {...props} />,
-          headerLeft: (props: any) => <HeaderLeft {...props} />,
-          headerRight: (props: any) => <HeaderRight {...props} />,
+          header: (props: any) => <HeaderTest {...props} />,
         })}
       />
       <Stack.Screen name="Products" component={Products} />
