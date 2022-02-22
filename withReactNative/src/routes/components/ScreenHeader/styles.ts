@@ -23,3 +23,7 @@ export const HeaderTitle = styled.Text`
 
   margin-left: 20px;
 `;
+
+export const HeaderTitleCenter = styled(HeaderTitle)`
+  margin: 0;
+`;
