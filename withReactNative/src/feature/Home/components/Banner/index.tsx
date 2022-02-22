@@ -1,4 +1,5 @@
 import React from 'react';
+import {useNavigation} from '@react-navigation/native';
 import {
   Container,
   Content,
@@ -11,6 +12,8 @@ import {
 } from './styles';
 
 const Banner = () => {
+  const navigation = useNavigation();
+
   return (
     <Container>
       <Content>
@@ -19,7 +22,7 @@ const Banner = () => {
           <AnnouceSubTitle>20% off for all item</AnnouceSubTitle>
         </AnnouceContainer>
 
-        <BuyButtonContainer>
+        <BuyButtonContainer onPress={() => navigation.navigate('Products')}>
           <BuyButtonContent>
             <BuyButtonText>Buy Now</BuyButtonText>
           </BuyButtonContent>

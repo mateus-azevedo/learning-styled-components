@@ -26,7 +26,7 @@ export const AnnouceSubTitle = styled.Text`
   color: #fff;
 `;
 
-export const BuyButtonContainer = styled.View`
+export const BuyButtonContainer = styled.TouchableOpacity`
   background-color: #3c444c;
   align-self: flex-start;
   border-radius: 8px;

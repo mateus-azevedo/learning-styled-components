@@ -16,7 +16,13 @@ const routes = () => {
           header: (props: any) => <HeaderTest {...props} />,
         })}
       />
-      <Stack.Screen name="Products" component={Products} />
+      <Stack.Screen
+        name="Products"
+        component={Products}
+        options={() => ({
+          header: (props: any) => <HeaderTest {...props} />,
+        })}
+      />
       <Stack.Screen name="DetailProduct" component={DetailProduct} />
     </Stack.Navigator>
   );
