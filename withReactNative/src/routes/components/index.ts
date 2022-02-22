@@ -1,3 +1,3 @@
-import HeaderTest from './HeaderTest';
+import ScreenHeader from './ScreenHeader';
 
-export {HeaderTest};
+export {ScreenHeader};

@@ -7,7 +7,7 @@ import {
 } from './styles';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
-const HeaderTest = (props: any) => {
+const ScreenHeader = (props: any) => {
   console.log(props.route.name);
 
   return (
@@ -25,4 +25,4 @@ const HeaderTest = (props: any) => {
   );
 };
 
-export default HeaderTest;
+export default ScreenHeader;
