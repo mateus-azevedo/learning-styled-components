@@ -1,3 +1,3 @@
-import SearchBarStyled from './SearchBarStyled';
+import ListItem from './ListItem';
 
-export {SearchBarStyled};
+export {ListItem};
