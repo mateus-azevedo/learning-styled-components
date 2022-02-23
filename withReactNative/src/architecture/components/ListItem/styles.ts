@@ -13,6 +13,7 @@ export const Container = styled.View.attrs({
   elevation: 5,
 })`
   border-radius: 8px;
+  margin-bottom: 18px;
 `;
 
 export const Content = styled.View`
