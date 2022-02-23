@@ -5,6 +5,7 @@ export const SearchContainer = styled.View`
   background-color: #f5f7f9;
   padding: 12px;
   border-radius: 8px;
+  margin-bottom: 24px;
 `;
 
 export const SearchContent = styled.View`
