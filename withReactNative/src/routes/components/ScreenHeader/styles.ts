@@ -27,3 +27,5 @@ export const HeaderTitle = styled.Text`
 export const HeaderTitleCenter = styled(HeaderTitle)`
   margin: 0;
 `;
+
+export const ButtonBack = styled.TouchableOpacity``;

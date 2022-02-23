@@ -1,5 +1,7 @@
 import React from 'react';
+import {useNavigation} from '@react-navigation/native';
 import {
+  ButtonBack,
   HeaderContainer,
   HeaderContent,
   HeaderTitle,
@@ -10,14 +12,19 @@ import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityI
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 
 const ScreenHeader = (props: any) => {
-  console.log(props.route.name);
+  const navigation = useNavigation();
 
   return (
     <>
       {props.route.name !== 'Home' ? (
         <HeaderContainer>
           <HeaderContent>
-            <MaterialIcons name="arrow-back" size={30} />
+            <ButtonBack
+              onPress={() => {
+                navigation.goBack();
+              }}>
+              <MaterialIcons name="arrow-back" size={30} />
+            </ButtonBack>
 
             <HeaderTitleCenter>{props.route.name}</HeaderTitleCenter>
 
