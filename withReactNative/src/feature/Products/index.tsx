@@ -1,10 +1,11 @@
 import React from 'react';
-import {Container, Title} from './styles';
+import {Container} from './styles';
+import {SearchBar} from './components';
 
 const Products = () => {
   return (
     <Container>
-      <Title>Products Screen</Title>
+      <SearchBar />
     </Container>
   );
 };
