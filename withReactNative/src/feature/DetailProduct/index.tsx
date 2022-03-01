@@ -1,10 +1,10 @@
 import React from 'react';
-import {Container, Title} from './styles';
+import {Container, ImageBox} from './styles';
 
 const DetailProduct = () => {
   return (
     <Container>
-      <Title>DetailProduct Screen</Title>
+      <ImageBox />
     </Container>
   );
 };
