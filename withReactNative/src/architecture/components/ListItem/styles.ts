@@ -1,7 +1,7 @@
 import styled from 'styled-components/native';
 import IconHeart from 'react-native-vector-icons/AntDesign';
 
-export const Container = styled.View.attrs({
+export const Container = styled.TouchableOpacity.attrs({
   shadowColor: '#000',
   shadowOffset: {
     width: 0,

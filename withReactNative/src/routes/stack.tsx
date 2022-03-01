@@ -23,7 +23,13 @@ const routes = () => {
           header: (props: any) => <ScreenHeader {...props} />,
         })}
       />
-      <Stack.Screen name="DetailProduct" component={DetailProduct} />
+      <Stack.Screen
+        name="DetailProduct"
+        component={DetailProduct}
+        options={() => ({
+          header: (props: any) => <ScreenHeader {...props} />,
+        })}
+      />
     </Stack.Navigator>
   );
 };

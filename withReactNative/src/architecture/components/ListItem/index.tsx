@@ -9,10 +9,13 @@ import {
   IconHeartEmpty,
   IconHeartFull,
 } from './styles';
+import {useNavigation} from '@react-navigation/native';
 
 const ListItem = () => {
+  const navigation = useNavigation();
+
   return (
-    <Container>
+    <Container onPress={() => navigation.navigate('DetailProduct')}>
       <Content>
         <ProductImage />
 
