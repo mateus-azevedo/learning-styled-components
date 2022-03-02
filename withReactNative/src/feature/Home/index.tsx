@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container} from './styles';
+import {Container, ScrollItems} from './styles';
 
 import {ListItem} from '@components';
 import {Banner, Header} from './components';
@@ -9,9 +9,12 @@ const Home = () => {
     <Container>
       <Header />
       <Banner />
-      <ListItem />
-      <ListItem />
-      <ListItem />
+
+      <ScrollItems>
+        <ListItem />
+        <ListItem />
+        <ListItem />
+      </ScrollItems>
     </Container>
   );
 };
